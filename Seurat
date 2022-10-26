@@ -6,7 +6,7 @@ library(ggplot2)
 >>>>>>>>>>>
 >> Download DATA:
 
-# Load the PBMC dataset
+# Load the PBMC dataset, import the data
 pbmc.data <- Read10X(data.dir = "../data/pbmc3k/filtered_gene_bc_matrices/hg19/")    # with the path: pbmc.data <- Read10X(data.dir = "/Users/ntant/Downloads/single cell data/")
 
 # Initialize the Seurat object with the raw (non-normalized data).
